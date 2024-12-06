@@ -173,7 +173,7 @@
   void calculateFlowSensor() {
     unsigned long currentTime = millis();
     if (currentTime - lastTime > 1000) { // Every 1 second
-      flowRate = (pulseCount / 3); // Adjust 7.5 based on your sensor's calibration
+      flowRate = (pulseCount / 7.5); // Adjust 7.5 based on your sensor's calibration
       flowRateInM3perS = flowRate / 60000  ;
       VelocityInM3perS = (flowRateInM3perS*100) / area;
       //flowVolume += flowRate / 60.0; // Calculate total flow in liters
