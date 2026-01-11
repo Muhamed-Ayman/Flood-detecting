@@ -28,12 +28,20 @@ The system integrates multi-sensor data, scientific analysis, and cloud-based co
 - [Analysis and Scientific Basis](#analysis-and-scientific-basis)
 - [Network & MQTT Configuration](#network--mqtt-configuration)
 - [Recommendations](#recommendations)
+  
 
 ---
 
 ## 📌 Project Overview
 Flooding is one of the most dangerous climate-related disasters, especially in flood-prone regions such as Egypt.  
 This project presents an advanced flood detection system that continuously monitors water behavior and environmental conditions to provide early warning alerts.
+
+
+
+- [Project Portfolio ](https://github.com/Muhamed-Ayman/Flood-detecting/blob/main/docs/Portfolio.pdf)
+- [Project Poster](https://github.com/Muhamed-Ayman/Flood-detecting/blob/main/docs/Poster.pdf)
+- [Project Presentation](https://github.com/Muhamed-Ayman/Flood-detecting/blob/main/docs/presentaion.ppsx)
+
 
 ---
 
@@ -103,15 +111,27 @@ Node-RED receives the data, analyzes it, visualizes it on a mobile dashboard, an
 
 ## 🔌 Component Connections
 
-| Component | ESP32 Pin | Connection |
-|--------|----------|-----------|
-| DHT11 | GPIO 4 | Digital |
-| Soil Moisture | GPIO 36 | Analog |
-| Flow Sensor | GPIO 23 | Digital (Interrupt) |
-| Buzzer | GPIO 26 | Digital Output |
-| BMP280 | I2C (0x76) | SDA / SCL |
-<img width="1108" height="635" alt="image" src="https://github.com/user-attachments/assets/53ec5774-ce55-4ea5-b232-8bcc1b68002f" />
+<table>
+<tr>
+<td>
 
+| Component      | ESP32 Pin | Connection           |
+|---------------|-----------|--------------------|
+| DHT11          | GPIO 4    | Digital             |
+| Soil Moisture  | GPIO 36   | Analog              |
+| Flow Sensor    | GPIO 23   | Digital (Interrupt) |
+| Buzzer         | GPIO 26   | Digital Output      |
+| BMP280         | I2C (0x76)| SDA / SCL           |
+
+</td>
+<td>
+
+<img width="476" height="286" alt="image" src="https://github.com/user-attachments/assets/ffe7e1f3-eec4-42ed-866c-b1e0e40cea60" />
+
+
+</td>
+</tr>
+</table>
 
 ---
 
