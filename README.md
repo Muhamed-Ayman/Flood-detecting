@@ -199,3 +199,9 @@ Password: 12345678
 - Upgrade sensors for faster, more accurate data (e.g., GFS131-WC2 for flow, SHT35 for temp & humidity).  
 - Use GIS tools to create detailed flood maps for efficient planning and response.  
 - Harness high water flow to drive turbines for clean energy generation.
+
+---
+
+## 📧 Contact
+Mohamed Ayman Abd-elhakim Ibrahim         mohammed.a.ibrahim@gmail.com
+Omar Bahaa Eldin Elsayed                  omarbahaa013@gmail.com
